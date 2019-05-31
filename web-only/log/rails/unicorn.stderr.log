@@ -1,0 +1,10 @@
+I, [2019-05-31T19:43:49.571793 #60]  INFO -- : Refreshing Gem list
+I, [2019-05-31T19:43:54.259571 #60]  INFO -- : listening on addr=0.0.0.0:3000 fd=10
+I, [2019-05-31T19:43:59.391220 #60]  INFO -- : master process ready
+I, [2019-05-31T19:44:01.056469 #153]  INFO -- : worker=0 ready
+I, [2019-05-31T19:44:02.756873 #162]  INFO -- : worker=1 ready
+I, [2019-05-31T19:44:03.432315 #171]  INFO -- : worker=2 ready
+I, [2019-05-31T19:44:25.479155 #60]  INFO -- : reaped #<Process::Status: pid 153 exit 0> worker=0
+I, [2019-05-31T19:44:25.479227 #60]  INFO -- : reaped #<Process::Status: pid 162 exit 0> worker=1
+I, [2019-05-31T19:44:25.479258 #60]  INFO -- : reaped #<Process::Status: pid 171 exit 0> worker=2
+I, [2019-05-31T19:44:25.479297 #60]  INFO -- : master complete

@@ -1,0 +1,1 @@
+May 31 19:43:49 discourse rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.

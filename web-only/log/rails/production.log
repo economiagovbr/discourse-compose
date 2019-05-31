@@ -1,0 +1,18 @@
+Creating scope :open. Overwriting existing method Poll.open.
+Started GET "/" for 127.0.0.1 at 2019-05-31 19:44:01 +0000
+Processing by FinishInstallationController#index as HTML
+  Rendering finish_installation/index.html.erb within layouts/finish_installation
+  Rendered finish_installation/index.html.erb within layouts/finish_installation (2.3ms)
+  Rendered layouts/_head.html.erb (19.1ms)
+Completed 200 OK in 292ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+Started GET "/stylesheets/wizard_c8cd633eb0efc37981caba687ebaef3c0c386b48.css?__ws=discourse.local" for 127.0.0.1 at 2019-05-31 19:44:01 +0000
+Processing by StylesheetsController#show as CSS
+  Parameters: {"__ws"=>"discourse.local", "name"=>"wizard_c8cd633eb0efc37981caba687ebaef3c0c386b48"}
+Sent file /var/www/discourse/tmp/stylesheet-cache/wizard_c8cd633eb0efc37981caba687ebaef3c0c386b48.css (0.3ms)
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2019-05-31 19:44:03 +0000
+Processing by FinishInstallationController#index as HTML
+  Rendering finish_installation/index.html.erb within layouts/finish_installation
+  Rendered finish_installation/index.html.erb within layouts/finish_installation (1.5ms)
+  Rendered layouts/_head.html.erb (4.6ms)
+Completed 200 OK in 22ms (Views: 11.9ms | ActiveRecord: 0.0ms)

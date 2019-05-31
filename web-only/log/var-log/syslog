@@ -1,0 +1,10 @@
+May 31 19:43:49 discourse rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="44" x-info="http://www.rsyslog.com"] start
+May 31 19:43:49 discourse rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+May 31 19:43:49 discourse rsyslogd-2307: warning: ~ action is deprecated, consider using the 'stop' statement instead [v8.16.0 try http://www.rsyslog.com/e/2307 ]
+May 31 19:43:49 discourse rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+May 31 19:43:49 discourse rsyslogd-2145: activation of module imklog failed [v8.16.0 try http://www.rsyslog.com/e/2145 ]
+May 31 19:43:49 discourse rsyslogd: rsyslogd's groupid changed to 109
+May 31 19:43:49 discourse rsyslogd: rsyslogd's userid changed to 106
+May 31 19:43:49 discourse rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+May 31 19:43:49 discourse rsyslogd-2007: action 'action 11' suspended, next retry is Fri May 31 19:44:19 2019 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+May 31 19:44:25 discourse rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="44" x-info="http://www.rsyslog.com"] exiting on signal 15.
