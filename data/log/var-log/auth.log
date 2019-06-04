@@ -1,0 +1,6 @@
+Jun  4 14:35:01 R2D2-data CRON[64]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  4 14:35:01 R2D2-data CRON[64]: pam_unix(cron:session): session closed for user root
+Jun  4 14:45:01 R2D2-data CRON[137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  4 14:45:01 R2D2-data CRON[137]: pam_unix(cron:session): session closed for user root
+Jun  4 14:55:01 R2D2-data CRON[140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  4 14:55:01 R2D2-data CRON[140]: pam_unix(cron:session): session closed for user root

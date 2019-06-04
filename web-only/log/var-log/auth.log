@@ -1,0 +1,4 @@
+Jun  3 20:15:01 discourse CRON[1004]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  3 20:15:01 discourse CRON[1004]: pam_unix(cron:session): session closed for user root
+Jun  4 14:25:01 discourse CRON[496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  4 14:25:01 discourse CRON[496]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,119 @@
+2019-06-04 14:32:35.650 UTC [34] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:32:35.650 UTC [34] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:32:35.653 UTC [34] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:32:35.669 UTC [46] LOG:  database system was shut down at 2019-06-04 14:31:54 UTC
+2019-06-04 14:32:35.679 UTC [34] LOG:  database system is ready to accept connections
+2019-06-04 14:34:16.843 UTC [59] discourse@discourse LOG:  duration: 616.101 ms  statement: CREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)
+2019-06-04 14:34:17.302 UTC [59] discourse@discourse LOG:  duration: 371.767 ms  statement: CREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)
+2019-06-04 14:34:17.956 UTC [59] discourse@discourse LOG:  duration: 419.792 ms  statement: CREATE TABLE "schema_migration_details" ("id" serial NOT NULL PRIMARY KEY, "version" character varying NOT NULL, "name" character varying, "hostname" character varying, "git_version" character varying, "rails_version" character varying, "duration" integer, "direction" character varying, "created_at" timestamp NOT NULL)
+2019-06-04 14:34:18.143 UTC [59] discourse@discourse LOG:  duration: 177.746 ms  statement: CREATE  INDEX  "index_schema_migration_details_on_version" ON "schema_migration_details"  ("version")
+2019-06-04 14:34:18.600 UTC [59] discourse@discourse LOG:  duration: 406.630 ms  statement: CREATE TABLE "forum_threads" ("id" serial NOT NULL PRIMARY KEY, "forum_id" integer NOT NULL, "title" character varying NOT NULL, "last_post_id" integer, "last_posted_at" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)
+2019-06-04 14:37:35.859 UTC [34] LOG:  lock file "postmaster.pid" contains wrong PID: 33 instead of 34
+2019-06-04 14:37:35.859 UTC [34] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:37:35.859 UTC [34] LOG:  received immediate shutdown request
+2019-06-04 14:37:35.861 UTC [87] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:37:35.861 UTC [87] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:37:35.861 UTC [87] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:37:35.862 UTC [50] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:37:35.862 UTC [50] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:37:35.862 UTC [50] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:37:35.868 UTC [34] LOG:  database system is shut down
+2019-06-04 14:37:35.885 UTC [88] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:37:35.885 UTC [88] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:37:35.888 UTC [88] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:37:35.904 UTC [89] LOG:  database system was interrupted; last known up at 2019-06-04 14:37:33 UTC
+2019-06-04 14:37:36.087 UTC [89] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-06-04 14:37:36.090 UTC [89] LOG:  invalid record length at 0/2707C78: wanted 24, got 0
+2019-06-04 14:37:36.090 UTC [89] LOG:  redo is not required
+2019-06-04 14:37:36.109 UTC [88] LOG:  database system is ready to accept connections
+2019-06-04 14:38:36.157 UTC [88] LOG:  lock file "postmaster.pid" contains wrong PID: 60 instead of 88
+2019-06-04 14:38:36.157 UTC [88] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:38:36.157 UTC [88] LOG:  received immediate shutdown request
+2019-06-04 14:38:36.167 UTC [94] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:38:36.167 UTC [94] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:38:36.167 UTC [94] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:38:36.187 UTC [88] LOG:  database system is shut down
+2019-06-04 14:38:36.221 UTC [97] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:38:36.221 UTC [97] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:38:36.224 UTC [97] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:38:36.243 UTC [98] LOG:  database system was interrupted; last known up at 2019-06-04 14:38:34 UTC
+2019-06-04 14:38:36.443 UTC [98] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-06-04 14:38:36.447 UTC [98] LOG:  invalid record length at 0/270A4A8: wanted 24, got 0
+2019-06-04 14:38:36.447 UTC [98] LOG:  redo is not required
+2019-06-04 14:38:36.470 UTC [97] LOG:  database system is ready to accept connections
+2019-06-04 14:39:36.532 UTC [97] LOG:  lock file "postmaster.pid" contains wrong PID: 71 instead of 97
+2019-06-04 14:39:36.532 UTC [97] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:39:36.532 UTC [97] LOG:  received immediate shutdown request
+2019-06-04 14:39:36.538 UTC [102] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:39:36.538 UTC [102] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:39:36.538 UTC [102] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:39:36.558 UTC [97] LOG:  database system is shut down
+2019-06-04 14:39:36.594 UTC [105] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:39:36.594 UTC [105] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:39:36.597 UTC [105] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:39:36.614 UTC [106] LOG:  database system was interrupted; last known up at 2019-06-04 14:39:34 UTC
+2019-06-04 14:39:36.811 UTC [106] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-06-04 14:39:36.817 UTC [106] LOG:  invalid record length at 0/2720890: wanted 24, got 0
+2019-06-04 14:39:36.817 UTC [106] LOG:  redo is not required
+2019-06-04 14:39:36.851 UTC [105] LOG:  database system is ready to accept connections
+2019-06-04 14:40:36.902 UTC [105] LOG:  lock file "postmaster.pid" contains wrong PID: 82 instead of 105
+2019-06-04 14:40:36.902 UTC [105] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:40:36.902 UTC [105] LOG:  received immediate shutdown request
+2019-06-04 14:40:36.912 UTC [110] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:40:36.912 UTC [110] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:40:36.912 UTC [110] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:40:36.916 UTC [105] LOG:  database system is shut down
+2019-06-04 14:40:36.934 UTC [113] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:40:36.934 UTC [113] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:40:36.937 UTC [113] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:40:36.958 UTC [114] LOG:  database system was interrupted; last known up at 2019-06-04 14:40:34 UTC
+2019-06-04 14:40:37.115 UTC [114] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-06-04 14:40:37.118 UTC [114] LOG:  invalid record length at 0/2735AD0: wanted 24, got 0
+2019-06-04 14:40:37.118 UTC [114] LOG:  redo is not required
+2019-06-04 14:40:37.134 UTC [113] LOG:  database system is ready to accept connections
+2019-06-04 14:42:37.255 UTC [113] LOG:  lock file "postmaster.pid" contains wrong PID: 104 instead of 113
+2019-06-04 14:42:37.255 UTC [113] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:42:37.255 UTC [113] LOG:  received immediate shutdown request
+2019-06-04 14:42:37.262 UTC [118] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:42:37.262 UTC [118] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:42:37.262 UTC [118] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:42:37.271 UTC [113] LOG:  database system is shut down
+2019-06-04 14:42:37.296 UTC [121] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:42:37.296 UTC [121] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:42:37.300 UTC [121] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:42:37.318 UTC [122] LOG:  database system was interrupted; last known up at 2019-06-04 14:41:40 UTC
+2019-06-04 14:42:37.486 UTC [122] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-06-04 14:42:37.490 UTC [122] LOG:  redo starts at 0/27457A8
+2019-06-04 14:42:37.490 UTC [122] LOG:  invalid record length at 0/2749EB8: wanted 24, got 0
+2019-06-04 14:42:37.490 UTC [122] LOG:  redo done at 0/2749E90
+2019-06-04 14:42:37.490 UTC [122] LOG:  last completed transaction was at log time 2019-06-04 14:42:37.271556+00
+2019-06-04 14:42:37.511 UTC [121] LOG:  database system is ready to accept connections
+2019-06-04 14:43:37.518 UTC [121] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-06-04 14:43:37.518 UTC [121] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:43:37.518 UTC [121] LOG:  received immediate shutdown request
+2019-06-04 14:43:37.519 UTC [121] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-06-04 14:43:37.519 UTC [126] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:43:37.519 UTC [126] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:43:37.519 UTC [126] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:43:37.525 UTC [121] LOG:  database system is shut down
+2019-06-04 14:43:37.547 UTC [129] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:43:37.547 UTC [129] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:43:37.550 UTC [129] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:43:37.572 UTC [130] LOG:  database system was shut down at 2019-06-04 14:43:06 UTC
+2019-06-04 14:43:37.585 UTC [129] LOG:  database system is ready to accept connections
+2019-06-04 14:48:37.629 UTC [131] LOG:  could not parse file name "pg_logical/snapshots/.gitkeep"
+2019-06-04 14:57:38.271 UTC [129] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-06-04 14:57:38.271 UTC [129] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-06-04 14:57:38.271 UTC [129] LOG:  received immediate shutdown request
+2019-06-04 14:57:38.272 UTC [129] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-06-04 14:57:38.273 UTC [134] WARNING:  terminating connection because of crash of another server process
+2019-06-04 14:57:38.273 UTC [134] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-06-04 14:57:38.273 UTC [134] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-06-04 14:57:38.291 UTC [129] LOG:  database system is shut down
+2019-06-04 14:57:38.355 UTC [143] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2019-06-04 14:57:38.356 UTC [143] LOG:  listening on IPv6 address "::", port 5432
+2019-06-04 14:57:38.359 UTC [143] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2019-06-04 14:57:38.384 UTC [143] LOG:  could not open temporary-files directory "pg_tblspc/.gitkeep/PG_10_201707211/pgsql_tmp": Not a directory
+2019-06-04 14:57:38.384 UTC [143] LOG:  could not open tablespace directory "pg_tblspc/.gitkeep/PG_10_201707211": Not a directory
+2019-06-04 14:57:38.388 UTC [144] LOG:  database system was shut down at 2019-06-04 14:57:36 UTC
+2019-06-04 14:57:38.395 UTC [143] LOG:  database system is ready to accept connections

@@ -1,0 +1,9 @@
+2019-06-04 14:59:29,556 INFO Initial blacklisted packages: 
+2019-06-04 14:59:29,557 INFO Initial whitelisted packages: 
+2019-06-04 14:59:29,557 INFO Starting unattended upgrades script
+2019-06-04 14:59:29,557 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-04 14:59:32,458 INFO Initial blacklisted packages: 
+2019-06-04 14:59:32,459 INFO Initial whitelisted packages: 
+2019-06-04 14:59:32,459 INFO Starting unattended upgrades script
+2019-06-04 14:59:32,459 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-04 14:59:35,071 INFO Packages that will be upgraded: 

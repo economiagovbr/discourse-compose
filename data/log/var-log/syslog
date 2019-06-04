@@ -1,0 +1,23 @@
+Jun  4 14:32:35 R2D2-data rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="31" x-info="http://www.rsyslog.com"] start
+Jun  4 14:32:35 R2D2-data rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Jun  4 14:32:35 R2D2-data rsyslogd-2307: warning: ~ action is deprecated, consider using the 'stop' statement instead [v8.16.0 try http://www.rsyslog.com/e/2307 ]
+Jun  4 14:32:35 R2D2-data rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Jun  4 14:32:35 R2D2-data rsyslogd-2145: activation of module imklog failed [v8.16.0 try http://www.rsyslog.com/e/2145 ]
+Jun  4 14:32:35 R2D2-data rsyslogd: rsyslogd's groupid changed to 109
+Jun  4 14:32:35 R2D2-data rsyslogd: rsyslogd's userid changed to 106
+Jun  4 14:32:35 R2D2-data rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Jun  4 14:32:35 R2D2-data rsyslogd-2007: action 'action 11' suspended, next retry is Tue Jun  4 14:33:05 2019 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Jun  4 14:35:01 R2D2-data CRON[65]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun  4 14:37:35 R2D2-data anacron[21]: Job `cron.daily' started
+Jun  4 14:37:35 R2D2-data anacron[78]: Updated timestamp for job `cron.daily' to 2019-06-04
+Jun  4 14:45:01 R2D2-data CRON[138]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun  4 14:55:01 R2D2-data CRON[141]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun  4 14:59:35 R2D2-data anacron[21]: Job `cron.daily' terminated
+Jun  4 14:59:35 R2D2-data anacron[21]: Job `cron.weekly' started
+Jun  4 14:59:35 R2D2-data anacron[369]: Updated timestamp for job `cron.weekly' to 2019-06-04
+Jun  4 14:59:35 R2D2-data anacron[21]: Job `cron.weekly' terminated (mailing output)
+Jun  4 14:59:35 R2D2-data anacron[21]: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Jun  4 14:59:35 R2D2-data anacron[21]: Job `cron.monthly' started
+Jun  4 14:59:35 R2D2-data anacron[21]: Job `cron.monthly' terminated
+Jun  4 14:59:35 R2D2-data anacron[21]: Normal exit (3 jobs run)
+Jun  4 14:59:35 R2D2-data anacron[376]: Updated timestamp for job `cron.monthly' to 2019-06-04

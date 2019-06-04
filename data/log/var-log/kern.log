@@ -1,0 +1,1 @@
+Jun  4 14:32:35 R2D2-data rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
